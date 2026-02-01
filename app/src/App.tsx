@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
+import { Analytics } from "@vercel/analytics/react"
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 // ============================================
@@ -70,7 +71,7 @@ function App() {
     <>
       {isLoading && <LoadingScreen />}
       <CustomCursor />
-      <main 
+      <main
         ref={mainRef}
         className={`relative bg-[#050505] min-h-screen transition-opacity duration-500 ${isLoading ? 'opacity-0' : 'opacity-100'}`}
       >
@@ -81,6 +82,7 @@ function App() {
         <Projects />
         <Contact />
       </main>
+      <Analytics />
     </>
   );
 }
