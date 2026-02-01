@@ -184,13 +184,13 @@ const Profile = () => {
             >
               <div className="text-center lg:text-left">
                 <div className="font-heading text-3xl md:text-4xl font-bold text-white">
-                  <span className="stat-number" data-target="2">0</span>+
+                  <span className="stat-number" data-target="1">0</span>+
                 </div>
                 <div className="font-mono text-xs text-[#666] mt-1">YEARS EXP</div>
               </div>
               <div className="text-center lg:text-left">
                 <div className="font-heading text-3xl md:text-4xl font-bold text-white">
-                  <span className="stat-number" data-target="5">0</span>+
+                  <span className="stat-number" data-target="4">0</span>+
                 </div>
                 <div className="font-mono text-xs text-[#666] mt-1">PROJECTS</div>
               </div>
